@@ -1,0 +1,92 @@
+.id                 10003
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   iload                  0
+   iconst                 27
+   multiply              
+   iconst                 45875204
+   if_getheight          
+   if_icmplt              LABEL7
+   jump                   LABEL15
+LABEL7:
+   iconst                 0
+   iconst                 0
+   iconst                 45875204
+   if_setscrollsize      
+   iconst                 1
+   iconst                 45875205
+   if_sethide            
+   jump                   LABEL67
+LABEL15:
+   iconst                 0
+   istore                 1
+LABEL17:
+   iload                  1
+   iload                  0
+   if_icmplt              LABEL21
+   jump                   LABEL58
+LABEL21:
+   iconst                 45875204
+   iload                  1
+   iconst                 2
+   multiply              
+   cc_find               
+   iconst                 1
+   if_icmpeq              LABEL29
+   jump                   LABEL36
+LABEL29:
+   cc_getwidth           
+   iconst                 16
+   sub                   
+   iconst                 27
+   iconst                 0
+   iconst                 0
+   cc_setsize            
+LABEL36:
+   iconst                 45875204
+   iload                  1
+   iconst                 2
+   multiply              
+   iconst                 1
+   add                   
+   cc_find               
+   iconst                 1
+   if_icmpeq              LABEL46
+   jump                   LABEL53
+LABEL46:
+   cc_getwidth           
+   iconst                 16
+   sub                   
+   iconst                 27
+   iconst                 0
+   iconst                 0
+   cc_setsize            
+LABEL53:
+   iload                  1
+   iconst                 1
+   add                   
+   istore                 1
+   jump                   LABEL17
+LABEL58:
+   iconst                 0
+   iload                  0
+   iconst                 27
+   multiply              
+   iconst                 45875204
+   if_setscrollsize      
+   iconst                 0
+   iconst                 45875205
+   if_sethide            
+LABEL67:
+   iconst                 45875205
+   iconst                 45875204
+   iconst                 792
+   iconst                 789
+   iconst                 790
+   iconst                 791
+   iconst                 773
+   iconst                 788
+   invoke                 31
+   return                

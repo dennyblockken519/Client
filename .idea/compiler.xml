@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="runelite-api" />
+        <module name="client" />
+        <module name="http-api" />
+        <module name="script-assembler-plugin" />
+        <module name="cache" />
+        <module name="runescape-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cache" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+      <module name="client" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+      <module name="http-api" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+      <module name="runelite-api" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+      <module name="runescape-api" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+      <module name="script-assembler-plugin" options="--add-modules jdk.jsobject --add-exports=javafx.web/com.sun.javafx.webkit=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

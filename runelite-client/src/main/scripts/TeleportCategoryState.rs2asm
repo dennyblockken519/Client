@@ -1,0 +1,103 @@
+.id                 10001
+.int_stack_count    2
+.string_stack_count 1
+.int_var_count      4
+.string_var_count   1
+   iconst                 45875204
+   istore                 2
+   iload                  0
+   iconst                 2
+   multiply              
+   istore                 3
+   iload                  2
+   iconst                 3
+   iload                  3
+   cc_create             
+   iconst                 0
+   iload                  0
+   iconst                 27
+   multiply              
+   iconst                 0
+   iconst                 0
+   cc_setposition        
+   iconst                 116
+   iconst                 27
+   iconst                 0
+   iconst                 0
+   cc_setsize            
+   iconst                 0
+   cc_settrans           
+   iconst                 1
+   cc_setfill            
+   iconst                 1
+   sconst                 "Weeeee"
+   cc_setop              
+   sconst                 "<col=ff9040>"
+   sload                  0
+   join_string            2
+   cc_setopbase          
+   iload                  1
+   iconst                 1
+   if_icmpeq              LABEL37
+   jump                   LABEL40
+LABEL37:
+   iconst                 7827559
+   cc_setcolour          
+   jump                   LABEL51
+LABEL40:
+   iload                  0
+   iconst                 2
+   mod                   
+   iconst                 0
+   if_icmpeq              LABEL46
+   jump                   LABEL49
+LABEL46:
+   iconst                 5721667
+   cc_setcolour          
+   jump                   LABEL51
+LABEL49:
+   iconst                 5129530
+   cc_setcolour          
+LABEL51:
+   iconst                 10010
+   iconst                 -2147483645
+   iconst                 -2147483643
+   sconst                 "ii"
+   cc_setonmouseover     
+   iconst                 10011
+   iconst                 -2147483645
+   iconst                 -2147483643
+   cc_getcolour          
+   sconst                 "iiC"
+   cc_setonmouseleave    
+   iload                  3
+   iconst                 1
+   add                   
+   istore                 3
+   iload                  2
+   iconst                 4
+   iload                  3
+   cc_create              1
+   iconst                 0
+   cc_gety               
+   iconst                 0
+   iconst                 0
+   cc_setposition         1
+   iconst                 116
+   iconst                 27
+   iconst                 0
+   iconst                 0
+   cc_setsize             1
+   iconst                 496
+   cc_settextfont         1
+   iconst                 1
+   iconst                 1
+   iconst                 0
+   cc_settextalign        1
+   iconst                 16750623
+   cc_setcolour           1
+   iconst                 1
+   cc_settextshadow       1
+   sload                  0
+   cc_settext             1
+   return                

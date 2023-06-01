@@ -1,0 +1,10 @@
+target
+nbactions.xml
+nb-configuration.xml
+/nbproject/
+project.properties
+.project
+.settings/
+.classpath
+toolkit
+.gradle/
