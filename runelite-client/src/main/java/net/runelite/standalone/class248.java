@@ -62,6 +62,6 @@ public enum class248 implements Enumerated {
       garbageValue = "-158553807"
    )
    public static ChatCrownType[] method4669() {
-      return new ChatCrownType[]{ChatCrownType.NONE, ChatCrownType.PLAYER_MOD, ChatCrownType.STAFF_MOD, ChatCrownType.IRONMAN, ChatCrownType.ULTIMATE_IRONMAN, ChatCrownType.HARDCORE_IRONMAN, ChatCrownType.SERVER_SUPPORT, ChatCrownType.SERVER_OWNER, ChatCrownType.GAME_DEVELOPER};
+      return new ChatCrownType[]{ChatCrownType.PLAYER,ChatCrownType.YOUTUBER, ChatCrownType.PLAYER_MOD, ChatCrownType.STAFF_MOD, ChatCrownType.SERVER_SUPPORT, ChatCrownType.SERVER_OWNER, ChatCrownType.GAME_DEVELOPER};
    }
 }

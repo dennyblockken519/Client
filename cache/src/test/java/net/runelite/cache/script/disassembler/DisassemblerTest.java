@@ -51,7 +51,7 @@ public class DisassemblerTest
 	@Test
 	public void test() throws IOException
 	{
-		File outDir = new File("C:\\Users\\mok\\Desktop\\dump");
+		File outDir = new File("C:\\Users\\denny\\OneDrive\\RSPS Dev\\Server\\data\\cache\\dump");
 		int count = 0;
 
 		try (Store store = new Store(StoreLocation.LOCATION))

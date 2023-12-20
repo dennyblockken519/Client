@@ -7,13 +7,11 @@ import net.runelite.mapping.ObfuscatedSignature;
 @ObfuscatedName("is")
 public enum ChatCrownType implements Enumerated {
 
-    NONE(0, -1, false, true),
-    IRONMAN(1, 2, false, true),
-    ULTIMATE_IRONMAN(2, 3, false, true),
-    HARDCORE_IRONMAN(3, 4, false, true),
-    PLAYER_MOD(4, 0, true, false),
-    STAFF_MOD(5, 1, true, false),
-    SERVER_SUPPORT(6, 5, true, false),
+    PLAYER(0, -1, false, true),
+    YOUTUBER(1, 7, false, true),
+    PLAYER_MOD(5, 6, true, false),
+    STAFF_MOD(4, 1, true, false),
+    SERVER_SUPPORT(6, 14, true, false),
     SERVER_OWNER(7, 6, true, false),
     GAME_DEVELOPER(8, 7, true, false);
 

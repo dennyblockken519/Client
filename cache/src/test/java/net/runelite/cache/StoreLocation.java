@@ -63,7 +63,7 @@ public class StoreLocation
 
 	private static File setupCacheDir() throws IOException
 	{
-		File file = new File("D:\\RSPS\\MoonScape\\moonscape-server\\data\\cache");
+		File file = new File("C:\\Users\\denny\\OneDrive\\RSPS Dev\\Server\\data\\cache");
 
 		if (file.exists())
 		{

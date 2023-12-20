@@ -34,20 +34,20 @@ import lombok.RequiredArgsConstructor;
 @Getter
 public enum IconID
 {
-	PLAYER_MODERATOR(0),
-	JAGEX_MODERATOR(1),
-	IRONMAN(2),
-	ULTIMATE_IRONMAN(3),
-	HARDCORE_IRONMAN(4),
+	PLAYER_MODERATOR(5),
+	JAGEX_MODERATOR(5),
+	IRONMAN(5),
+	ULTIMATE_IRONMAN(5),
+	HARDCORE_IRONMAN(5),
 	SERVER_SUPPORT(5),
-	SERVER_OWNER(6),
-	GAME_DEVELOPER(7);
+	SERVER_OWNER(5),
+	GAME_DEVELOPER(5);
 
 	private final int index;
 
 	@Override
 	public String toString()
 	{
-		return "<img=" + String.valueOf(this.index) + ">";
+		return "blaazzzz<img=" + String.valueOf(this.index) + ">";
 	}
 }

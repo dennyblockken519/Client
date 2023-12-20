@@ -27,7 +27,6 @@ package net.runelite.client.plugins.discord;
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.ComparisonChain;
 import lombok.Data;
-import net.runelite.api.Constants;
 import net.runelite.client.RuneLiteProperties;
 import net.runelite.client.discord.DiscordPresence;
 import net.runelite.client.discord.DiscordService;
